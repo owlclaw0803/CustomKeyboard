@@ -1,0 +1,1170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1129541A027D7200A030EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1129531A027D7200A030EC /* main.m */; };
+		EE1129571A027D7200A030EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1129561A027D7200A030EC /* AppDelegate.m */; };
+		EE11295A1A027D7200A030EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1129591A027D7200A030EC /* ViewController.m */; };
+		EE11295D1A027D7700A030EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE11295B1A027D7700A030EC /* Main.storyboard */; };
+		EE11295F1A027D7700A030EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE11295E1A027D7700A030EC /* Images.xcassets */; };
+		EE1129621A027D7700A030EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1129601A027D7700A030EC /* LaunchScreen.xib */; };
+		EE11296E1A027D7700A030EC /* KidKeysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE11296D1A027D7700A030EC /* KidKeysTests.m */; };
+		EE1129811A027E0C00A030EC /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1129801A027E0C00A030EC /* KeyboardViewController.m */; };
+		EE1129841A027E0C00A030EC /* KidKeys.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EE11297B1A027E0C00A030EC /* KidKeys.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EE112AD51A027EBC00A030EC /* 0_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A081A027EBC00A030EC /* 0_sound.mp3 */; };
+		EE112AD61A027EBC00A030EC /* 1_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A091A027EBC00A030EC /* 1_sound.mp3 */; };
+		EE112AD71A027EBC00A030EC /* 2_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A0A1A027EBC00A030EC /* 2_sound.mp3 */; };
+		EE112AD81A027EBC00A030EC /* 3_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A0B1A027EBC00A030EC /* 3_sound.mp3 */; };
+		EE112AD91A027EBC00A030EC /* 4_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A0C1A027EBC00A030EC /* 4_sound.mp3 */; };
+		EE112ADA1A027EBC00A030EC /* 5_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A0D1A027EBC00A030EC /* 5_sound.mp3 */; };
+		EE112ADB1A027EBC00A030EC /* 6_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A0E1A027EBC00A030EC /* 6_sound.mp3 */; };
+		EE112ADC1A027EBC00A030EC /* 7_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A0F1A027EBC00A030EC /* 7_sound.mp3 */; };
+		EE112ADD1A027EBC00A030EC /* 8_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A101A027EBC00A030EC /* 8_sound.mp3 */; };
+		EE112ADE1A027EBC00A030EC /* 9_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A111A027EBC00A030EC /* 9_sound.mp3 */; };
+		EE112ADF1A027EBC00A030EC /* a_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A121A027EBC00A030EC /* a_sound.mp3 */; };
+		EE112AE01A027EBC00A030EC /* ampersand_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A131A027EBC00A030EC /* ampersand_sound.mp3 */; };
+		EE112AE11A027EBC00A030EC /* apostrophe_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A141A027EBC00A030EC /* apostrophe_sound.mp3 */; };
+		EE112AE21A027EBC00A030EC /* asterisk_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A151A027EBC00A030EC /* asterisk_sound.mp3 */; };
+		EE112AE31A027EBC00A030EC /* at_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A161A027EBC00A030EC /* at_sound.mp3 */; };
+		EE112AE41A027EBC00A030EC /* b_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A171A027EBC00A030EC /* b_sound.mp3 */; };
+		EE112AE51A027EBC00A030EC /* backslash_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A181A027EBC00A030EC /* backslash_sound.mp3 */; };
+		EE112AE61A027EBC00A030EC /* bar_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A191A027EBC00A030EC /* bar_sound.mp3 */; };
+		EE112AE71A027EBC00A030EC /* c_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A1A1A027EBC00A030EC /* c_sound.mp3 */; };
+		EE112AE81A027EBC00A030EC /* caret_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A1B1A027EBC00A030EC /* caret_sound.mp3 */; };
+		EE112AE91A027EBC00A030EC /* change_keyboard_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A1C1A027EBC00A030EC /* change_keyboard_sound.mp3 */; };
+		EE112AEA1A027EBC00A030EC /* colon_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A1D1A027EBC00A030EC /* colon_sound.mp3 */; };
+		EE112AEB1A027EBC00A030EC /* d_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A1E1A027EBC00A030EC /* d_sound.mp3 */; };
+		EE112AEC1A027EBC00A030EC /* delete_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A1F1A027EBC00A030EC /* delete_sound.mp3 */; };
+		EE112AED1A027EBC00A030EC /* dollar_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A201A027EBC00A030EC /* dollar_sound.mp3 */; };
+		EE112AEE1A027EBC00A030EC /* drop_keyboard_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A211A027EBC00A030EC /* drop_keyboard_sound.mp3 */; };
+		EE112AEF1A027EBC00A030EC /* e_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A221A027EBC00A030EC /* e_sound.mp3 */; };
+		EE112AF01A027EBC00A030EC /* equal_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A231A027EBC00A030EC /* equal_sound.mp3 */; };
+		EE112AF11A027EBC00A030EC /* euro_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A241A027EBC00A030EC /* euro_sound.mp3 */; };
+		EE112AF21A027EBC00A030EC /* exclamation_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A251A027EBC00A030EC /* exclamation_sound.mp3 */; };
+		EE112AF31A027EBC00A030EC /* f_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A261A027EBC00A030EC /* f_sound.mp3 */; };
+		EE112AF41A027EBC00A030EC /* g_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A271A027EBC00A030EC /* g_sound.mp3 */; };
+		EE112AF51A027EBC00A030EC /* greater_than_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A281A027EBC00A030EC /* greater_than_sound.mp3 */; };
+		EE112AF61A027EBC00A030EC /* h_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A291A027EBC00A030EC /* h_sound.mp3 */; };
+		EE112AF71A027EBC00A030EC /* hash_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A2A1A027EBC00A030EC /* hash_sound.mp3 */; };
+		EE112AF81A027EBC00A030EC /* hyphen_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A2B1A027EBC00A030EC /* hyphen_sound.mp3 */; };
+		EE112AF91A027EBC00A030EC /* i_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A2C1A027EBC00A030EC /* i_sound.mp3 */; };
+		EE112AFA1A027EBC00A030EC /* j_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A2D1A027EBC00A030EC /* j_sound.mp3 */; };
+		EE112AFB1A027EBC00A030EC /* k_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A2E1A027EBC00A030EC /* k_sound.mp3 */; };
+		EE112AFC1A027EBC00A030EC /* l_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A2F1A027EBC00A030EC /* l_sound.mp3 */; };
+		EE112AFD1A027EBC00A030EC /* left_curved_bracket_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A301A027EBC00A030EC /* left_curved_bracket_sound.mp3 */; };
+		EE112AFE1A027EBC00A030EC /* left_parenthesis_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A311A027EBC00A030EC /* left_parenthesis_sound.mp3 */; };
+		EE112AFF1A027EBC00A030EC /* left_square_bracket_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A321A027EBC00A030EC /* left_square_bracket_sound.mp3 */; };
+		EE112B001A027EBC00A030EC /* less_than_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A331A027EBC00A030EC /* less_than_sound.mp3 */; };
+		EE112B011A027EBC00A030EC /* letters_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A341A027EBC00A030EC /* letters_sound.mp3 */; };
+		EE112B021A027EBC00A030EC /* lower_case_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A351A027EBC00A030EC /* lower_case_sound.mp3 */; };
+		EE112B031A027EBC00A030EC /* m_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A361A027EBC00A030EC /* m_sound.mp3 */; };
+		EE112B041A027EBC00A030EC /* more_symbols_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A371A027EBC00A030EC /* more_symbols_sound.mp3 */; };
+		EE112B051A027EBC00A030EC /* n_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A381A027EBC00A030EC /* n_sound.mp3 */; };
+		EE112B061A027EBC00A030EC /* numbers_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A391A027EBC00A030EC /* numbers_sound.mp3 */; };
+		EE112B071A027EBC00A030EC /* o_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A3A1A027EBC00A030EC /* o_sound.mp3 */; };
+		EE112B081A027EBC00A030EC /* p_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A3B1A027EBC00A030EC /* p_sound.mp3 */; };
+		EE112B091A027EBC00A030EC /* percent_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A3C1A027EBC00A030EC /* percent_sound.mp3 */; };
+		EE112B0A1A027EBC00A030EC /* period_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A3D1A027EBC00A030EC /* period_sound.mp3 */; };
+		EE112B0B1A027EBC00A030EC /* plus_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A3E1A027EBC00A030EC /* plus_sound.mp3 */; };
+		EE112B0C1A027EBC00A030EC /* pound_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A3F1A027EBC00A030EC /* pound_sound.mp3 */; };
+		EE112B0D1A027EBC00A030EC /* q_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A401A027EBC00A030EC /* q_sound.mp3 */; };
+		EE112B0E1A027EBC00A030EC /* question_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A411A027EBC00A030EC /* question_sound.mp3 */; };
+		EE112B0F1A027EBC00A030EC /* quotation_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A421A027EBC00A030EC /* quotation_sound.mp3 */; };
+		EE112B101A027EBC00A030EC /* r_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A431A027EBC00A030EC /* r_sound.mp3 */; };
+		EE112B111A027EBC00A030EC /* redo_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A441A027EBC00A030EC /* redo_sound.mp3 */; };
+		EE112B121A027EBC00A030EC /* return_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A451A027EBC00A030EC /* return_sound.mp3 */; };
+		EE112B131A027EBC00A030EC /* right_curved_bracket_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A461A027EBC00A030EC /* right_curved_bracket_sound.mp3 */; };
+		EE112B141A027EBC00A030EC /* right_parenthesis_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A471A027EBC00A030EC /* right_parenthesis_sound.mp3 */; };
+		EE112B151A027EBC00A030EC /* right_square_bracket_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A481A027EBC00A030EC /* right_square_bracket_sound.mp3 */; };
+		EE112B161A027EBC00A030EC /* s_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A491A027EBC00A030EC /* s_sound.mp3 */; };
+		EE112B171A027EBC00A030EC /* semicolon_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A4A1A027EBC00A030EC /* semicolon_sound.mp3 */; };
+		EE112B181A027EBC00A030EC /* slash_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A4B1A027EBC00A030EC /* slash_sound.mp3 */; };
+		EE112B191A027EBC00A030EC /* space_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A4C1A027EBC00A030EC /* space_sound.mp3 */; };
+		EE112B1A1A027EBC00A030EC /* speak_off_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A4D1A027EBC00A030EC /* speak_off_sound.mp3 */; };
+		EE112B1B1A027EBC00A030EC /* speak_on_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A4E1A027EBC00A030EC /* speak_on_sound.mp3 */; };
+		EE112B1C1A027EBC00A030EC /* symbols_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A4F1A027EBC00A030EC /* symbols_sound.mp3 */; };
+		EE112B1D1A027EBC00A030EC /* t_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A501A027EBC00A030EC /* t_sound.mp3 */; };
+		EE112B1E1A027EBC00A030EC /* tilde_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A511A027EBC00A030EC /* tilde_sound.mp3 */; };
+		EE112B1F1A027EBC00A030EC /* u_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A521A027EBC00A030EC /* u_sound.mp3 */; };
+		EE112B201A027EBC00A030EC /* underscore__sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A531A027EBC00A030EC /* underscore__sound.mp3 */; };
+		EE112B211A027EBC00A030EC /* undo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A541A027EBC00A030EC /* undo.mp3 */; };
+		EE112B221A027EBC00A030EC /* upper_case_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A551A027EBC00A030EC /* upper_case_sound.mp3 */; };
+		EE112B231A027EBC00A030EC /* v_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A561A027EBC00A030EC /* v_sound.mp3 */; };
+		EE112B241A027EBC00A030EC /* w_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A571A027EBC00A030EC /* w_sound.mp3 */; };
+		EE112B251A027EBC00A030EC /* x_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A581A027EBC00A030EC /* x_sound.mp3 */; };
+		EE112B261A027EBC00A030EC /* y_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A591A027EBC00A030EC /* y_sound.mp3 */; };
+		EE112B271A027EBC00A030EC /* yen_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A5A1A027EBC00A030EC /* yen_sound.mp3 */; };
+		EE112B281A027EBC00A030EC /* z_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE112A5B1A027EBC00A030EC /* z_sound.mp3 */; };
+		EE176B271A03E0D0009F03BC /* wordlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE176B261A03E0D0009F03BC /* wordlist.plist */; };
+		EE2061811AAA918B00EC1A11 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2061801AAA918B00EC1A11 /* AudioToolbox.framework */; };
+		EE2061831AAA919000EC1A11 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2061821AAA919000EC1A11 /* AVFoundation.framework */; };
+		EE22DF101AAD403100371F42 /* speak_sentence_off_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE22DF0E1AAD403100371F42 /* speak_sentence_off_sound.mp3 */; };
+		EE22DF111AAD403100371F42 /* speak_sentence_on_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE22DF0F1AAD403100371F42 /* speak_sentence_on_sound.mp3 */; };
+		EE2456C61A095A10009761D3 /* SFCartoonistHand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE2456C51A0959FF009761D3 /* SFCartoonistHand-Bold.ttf */; };
+		EE2456C81A0961E4009761D3 /* KEY_back.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2456C71A0961E4009761D3 /* KEY_back.png */; };
+		EE2B87DD1AA6BD4C00389931 /* KEY_SENTENCE_OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2B87DB1AA6BD4C00389931 /* KEY_SENTENCE_OFF.png */; };
+		EE2B87DE1AA6BD4C00389931 /* KEY_SENTENCE.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2B87DC1AA6BD4C00389931 /* KEY_SENTENCE.png */; };
+		EE2C463A1A05C45A0034775A /* icon100.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C462C1A05C45A0034775A /* icon100.png */; };
+		EE2C463B1A05C45A0034775A /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C462D1A05C45A0034775A /* icon114.png */; };
+		EE2C463C1A05C45A0034775A /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C462E1A05C45A0034775A /* icon120.png */; };
+		EE2C463D1A05C45A0034775A /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C462F1A05C45A0034775A /* icon144.png */; };
+		EE2C463E1A05C45A0034775A /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46301A05C45A0034775A /* icon152.png */; };
+		EE2C463F1A05C45A0034775A /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46311A05C45A0034775A /* icon29.png */; };
+		EE2C46401A05C45A0034775A /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46321A05C45A0034775A /* icon40.png */; };
+		EE2C46411A05C45A0034775A /* icon50.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46331A05C45A0034775A /* icon50.png */; };
+		EE2C46421A05C45A0034775A /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46341A05C45A0034775A /* icon57.png */; };
+		EE2C46431A05C45A0034775A /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46351A05C45A0034775A /* icon58.png */; };
+		EE2C46441A05C45A0034775A /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46361A05C45A0034775A /* icon72.png */; };
+		EE2C46451A05C45A0034775A /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46371A05C45A0034775A /* icon76.png */; };
+		EE2C46461A05C45A0034775A /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46381A05C45A0034775A /* icon80.png */; };
+		EE2C465C1A05C5370034775A /* how-to_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46561A05C5370034775A /* how-to_ipad.png */; };
+		EE2C465D1A05C5370034775A /* how-to_ipad_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46571A05C5370034775A /* how-to_ipad_retina.png */; };
+		EE2C465E1A05C5370034775A /* how-to_iphone4.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46581A05C5370034775A /* how-to_iphone4.png */; };
+		EE2C465F1A05C5370034775A /* how-to_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46591A05C5370034775A /* how-to_iphone5.png */; };
+		EE2C46601A05C5370034775A /* how-to_iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C465A1A05C5370034775A /* how-to_iphone6.png */; };
+		EE2C46611A05C5370034775A /* how-to_iphone6plus.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C465B1A05C5370034775A /* how-to_iphone6plus.png */; };
+		EE2C466C1A05CFE80034775A /* splash_1242_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46631A05CFE80034775A /* splash_1242_2208.png */; };
+		EE2C466D1A05CFE80034775A /* splash_1536_2008.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46641A05CFE80034775A /* splash_1536_2008.png */; };
+		EE2C466E1A05CFE80034775A /* splash_1536_2048.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46651A05CFE80034775A /* splash_1536_2048.png */; };
+		EE2C466F1A05CFE80034775A /* splash_320_480.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46661A05CFE80034775A /* splash_320_480.png */; };
+		EE2C46701A05CFE80034775A /* splash_640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46671A05CFE80034775A /* splash_640_1136.png */; };
+		EE2C46711A05CFE80034775A /* splash_640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46681A05CFE80034775A /* splash_640_960.png */; };
+		EE2C46721A05CFE80034775A /* splash_750_1334.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C46691A05CFE80034775A /* splash_750_1334.png */; };
+		EE2C46731A05CFE80034775A /* splash_768_1004.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C466A1A05CFE80034775A /* splash_768_1004.png */; };
+		EE2C46741A05CFE80034775A /* splash_768_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C466B1A05CFE80034775A /* splash_768_1024.png */; };
+		EE4FAC6D1A0B8FA40082DBAD /* KEY_CHANGE_KEYBOARD.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FAC671A0B8FA40082DBAD /* KEY_CHANGE_KEYBOARD.png */; };
+		EE4FAC6E1A0B8FA40082DBAD /* KEY_DELETE.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FAC681A0B8FA40082DBAD /* KEY_DELETE.png */; };
+		EE4FAC6F1A0B8FA40082DBAD /* KEY_DROP_KEYBOARD.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FAC691A0B8FA40082DBAD /* KEY_DROP_KEYBOARD.png */; };
+		EE4FAC701A0B8FA40082DBAD /* KEY_RETURN.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FAC6A1A0B8FA40082DBAD /* KEY_RETURN.png */; };
+		EE4FAC711A0B8FA40082DBAD /* KEY_SPEAK_OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FAC6B1A0B8FA40082DBAD /* KEY_SPEAK_OFF.png */; };
+		EE4FAC721A0B8FA40082DBAD /* KEY_SPEAK.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FAC6C1A0B8FA40082DBAD /* KEY_SPEAK.png */; };
+		EE4FAC751A0B90480082DBAD /* KEY_EXCLAMATION_COMMA.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FAC731A0B90480082DBAD /* KEY_EXCLAMATION_COMMA.png */; };
+		EE4FAC761A0B90480082DBAD /* KEY_QUESTION_PERIOD.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4FAC741A0B90480082DBAD /* KEY_QUESTION_PERIOD.png */; };
+		EEC6D3C61A04800D00DFF808 /* comma_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEC6D3C51A04800D00DFF808 /* comma_sound.mp3 */; };
+		EEE1F6081A0B390D00FBC3EE /* KEY_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE1F6071A0B390D00FBC3EE /* KEY_orange.png */; };
+		EEFEB0A41A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPAD.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFEB0A21A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPAD.png */; };
+		EEFEB0A51A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPHONE.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFEB0A31A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPHONE.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE1129681A027D7700A030EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1129461A027D6800A030EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE11294D1A027D6B00A030EC;
+			remoteInfo = KidKeys;
+		};
+		EE1129821A027E0C00A030EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1129461A027D6800A030EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE11297A1A027E0C00A030EC;
+			remoteInfo = KidKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE1129881A027E0C00A030EC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EE1129841A027E0C00A030EC /* KidKeys.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE11294E1A027D7000A030EC /* KidKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1129521A027D7200A030EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1129531A027D7200A030EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE1129551A027D7200A030EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE1129561A027D7200A030EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE1129581A027D7200A030EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE1129591A027D7200A030EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE11295C1A027D7700A030EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE11295E1A027D7700A030EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE1129611A027D7700A030EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE1129671A027D7700A030EC /* KidKeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidKeysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE11296C1A027D7700A030EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE11296D1A027D7700A030EC /* KidKeysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidKeysTests.m; sourceTree = "<group>"; };
+		EE11297B1A027E0C00A030EC /* KidKeys.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KidKeys.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE11297E1A027E0C00A030EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE11297F1A027E0C00A030EC /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		EE1129801A027E0C00A030EC /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		EE112A081A027EBC00A030EC /* 0_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0_sound.mp3; sourceTree = "<group>"; };
+		EE112A091A027EBC00A030EC /* 1_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1_sound.mp3; sourceTree = "<group>"; };
+		EE112A0A1A027EBC00A030EC /* 2_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2_sound.mp3; sourceTree = "<group>"; };
+		EE112A0B1A027EBC00A030EC /* 3_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3_sound.mp3; sourceTree = "<group>"; };
+		EE112A0C1A027EBC00A030EC /* 4_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4_sound.mp3; sourceTree = "<group>"; };
+		EE112A0D1A027EBC00A030EC /* 5_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5_sound.mp3; sourceTree = "<group>"; };
+		EE112A0E1A027EBC00A030EC /* 6_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6_sound.mp3; sourceTree = "<group>"; };
+		EE112A0F1A027EBC00A030EC /* 7_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7_sound.mp3; sourceTree = "<group>"; };
+		EE112A101A027EBC00A030EC /* 8_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8_sound.mp3; sourceTree = "<group>"; };
+		EE112A111A027EBC00A030EC /* 9_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9_sound.mp3; sourceTree = "<group>"; };
+		EE112A121A027EBC00A030EC /* a_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a_sound.mp3; sourceTree = "<group>"; };
+		EE112A131A027EBC00A030EC /* ampersand_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ampersand_sound.mp3; sourceTree = "<group>"; };
+		EE112A141A027EBC00A030EC /* apostrophe_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apostrophe_sound.mp3; sourceTree = "<group>"; };
+		EE112A151A027EBC00A030EC /* asterisk_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = asterisk_sound.mp3; sourceTree = "<group>"; };
+		EE112A161A027EBC00A030EC /* at_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = at_sound.mp3; sourceTree = "<group>"; };
+		EE112A171A027EBC00A030EC /* b_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_sound.mp3; sourceTree = "<group>"; };
+		EE112A181A027EBC00A030EC /* backslash_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backslash_sound.mp3; sourceTree = "<group>"; };
+		EE112A191A027EBC00A030EC /* bar_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bar_sound.mp3; sourceTree = "<group>"; };
+		EE112A1A1A027EBC00A030EC /* c_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c_sound.mp3; sourceTree = "<group>"; };
+		EE112A1B1A027EBC00A030EC /* caret_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = caret_sound.mp3; sourceTree = "<group>"; };
+		EE112A1C1A027EBC00A030EC /* change_keyboard_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = change_keyboard_sound.mp3; sourceTree = "<group>"; };
+		EE112A1D1A027EBC00A030EC /* colon_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = colon_sound.mp3; sourceTree = "<group>"; };
+		EE112A1E1A027EBC00A030EC /* d_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = d_sound.mp3; sourceTree = "<group>"; };
+		EE112A1F1A027EBC00A030EC /* delete_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = delete_sound.mp3; sourceTree = "<group>"; };
+		EE112A201A027EBC00A030EC /* dollar_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dollar_sound.mp3; sourceTree = "<group>"; };
+		EE112A211A027EBC00A030EC /* drop_keyboard_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop_keyboard_sound.mp3; sourceTree = "<group>"; };
+		EE112A221A027EBC00A030EC /* e_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e_sound.mp3; sourceTree = "<group>"; };
+		EE112A231A027EBC00A030EC /* equal_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = equal_sound.mp3; sourceTree = "<group>"; };
+		EE112A241A027EBC00A030EC /* euro_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = euro_sound.mp3; sourceTree = "<group>"; };
+		EE112A251A027EBC00A030EC /* exclamation_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = exclamation_sound.mp3; sourceTree = "<group>"; };
+		EE112A261A027EBC00A030EC /* f_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f_sound.mp3; sourceTree = "<group>"; };
+		EE112A271A027EBC00A030EC /* g_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = g_sound.mp3; sourceTree = "<group>"; };
+		EE112A281A027EBC00A030EC /* greater_than_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = greater_than_sound.mp3; sourceTree = "<group>"; };
+		EE112A291A027EBC00A030EC /* h_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = h_sound.mp3; sourceTree = "<group>"; };
+		EE112A2A1A027EBC00A030EC /* hash_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hash_sound.mp3; sourceTree = "<group>"; };
+		EE112A2B1A027EBC00A030EC /* hyphen_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hyphen_sound.mp3; sourceTree = "<group>"; };
+		EE112A2C1A027EBC00A030EC /* i_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = i_sound.mp3; sourceTree = "<group>"; };
+		EE112A2D1A027EBC00A030EC /* j_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = j_sound.mp3; sourceTree = "<group>"; };
+		EE112A2E1A027EBC00A030EC /* k_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = k_sound.mp3; sourceTree = "<group>"; };
+		EE112A2F1A027EBC00A030EC /* l_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = l_sound.mp3; sourceTree = "<group>"; };
+		EE112A301A027EBC00A030EC /* left_curved_bracket_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left_curved_bracket_sound.mp3; sourceTree = "<group>"; };
+		EE112A311A027EBC00A030EC /* left_parenthesis_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left_parenthesis_sound.mp3; sourceTree = "<group>"; };
+		EE112A321A027EBC00A030EC /* left_square_bracket_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left_square_bracket_sound.mp3; sourceTree = "<group>"; };
+		EE112A331A027EBC00A030EC /* less_than_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = less_than_sound.mp3; sourceTree = "<group>"; };
+		EE112A341A027EBC00A030EC /* letters_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = letters_sound.mp3; sourceTree = "<group>"; };
+		EE112A351A027EBC00A030EC /* lower_case_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lower_case_sound.mp3; sourceTree = "<group>"; };
+		EE112A361A027EBC00A030EC /* m_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m_sound.mp3; sourceTree = "<group>"; };
+		EE112A371A027EBC00A030EC /* more_symbols_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = more_symbols_sound.mp3; sourceTree = "<group>"; };
+		EE112A381A027EBC00A030EC /* n_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = n_sound.mp3; sourceTree = "<group>"; };
+		EE112A391A027EBC00A030EC /* numbers_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = numbers_sound.mp3; sourceTree = "<group>"; };
+		EE112A3A1A027EBC00A030EC /* o_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = o_sound.mp3; sourceTree = "<group>"; };
+		EE112A3B1A027EBC00A030EC /* p_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p_sound.mp3; sourceTree = "<group>"; };
+		EE112A3C1A027EBC00A030EC /* percent_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = percent_sound.mp3; sourceTree = "<group>"; };
+		EE112A3D1A027EBC00A030EC /* period_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = period_sound.mp3; sourceTree = "<group>"; };
+		EE112A3E1A027EBC00A030EC /* plus_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plus_sound.mp3; sourceTree = "<group>"; };
+		EE112A3F1A027EBC00A030EC /* pound_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pound_sound.mp3; sourceTree = "<group>"; };
+		EE112A401A027EBC00A030EC /* q_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = q_sound.mp3; sourceTree = "<group>"; };
+		EE112A411A027EBC00A030EC /* question_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = question_sound.mp3; sourceTree = "<group>"; };
+		EE112A421A027EBC00A030EC /* quotation_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quotation_sound.mp3; sourceTree = "<group>"; };
+		EE112A431A027EBC00A030EC /* r_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = r_sound.mp3; sourceTree = "<group>"; };
+		EE112A441A027EBC00A030EC /* redo_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = redo_sound.mp3; sourceTree = "<group>"; };
+		EE112A451A027EBC00A030EC /* return_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = return_sound.mp3; sourceTree = "<group>"; };
+		EE112A461A027EBC00A030EC /* right_curved_bracket_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right_curved_bracket_sound.mp3; sourceTree = "<group>"; };
+		EE112A471A027EBC00A030EC /* right_parenthesis_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right_parenthesis_sound.mp3; sourceTree = "<group>"; };
+		EE112A481A027EBC00A030EC /* right_square_bracket_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right_square_bracket_sound.mp3; sourceTree = "<group>"; };
+		EE112A491A027EBC00A030EC /* s_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = s_sound.mp3; sourceTree = "<group>"; };
+		EE112A4A1A027EBC00A030EC /* semicolon_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = semicolon_sound.mp3; sourceTree = "<group>"; };
+		EE112A4B1A027EBC00A030EC /* slash_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slash_sound.mp3; sourceTree = "<group>"; };
+		EE112A4C1A027EBC00A030EC /* space_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = space_sound.mp3; sourceTree = "<group>"; };
+		EE112A4D1A027EBC00A030EC /* speak_off_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speak_off_sound.mp3; sourceTree = "<group>"; };
+		EE112A4E1A027EBC00A030EC /* speak_on_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speak_on_sound.mp3; sourceTree = "<group>"; };
+		EE112A4F1A027EBC00A030EC /* symbols_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = symbols_sound.mp3; sourceTree = "<group>"; };
+		EE112A501A027EBC00A030EC /* t_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t_sound.mp3; sourceTree = "<group>"; };
+		EE112A511A027EBC00A030EC /* tilde_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tilde_sound.mp3; sourceTree = "<group>"; };
+		EE112A521A027EBC00A030EC /* u_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = u_sound.mp3; sourceTree = "<group>"; };
+		EE112A531A027EBC00A030EC /* underscore__sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = underscore__sound.mp3; sourceTree = "<group>"; };
+		EE112A541A027EBC00A030EC /* undo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = undo.mp3; sourceTree = "<group>"; };
+		EE112A551A027EBC00A030EC /* upper_case_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = upper_case_sound.mp3; sourceTree = "<group>"; };
+		EE112A561A027EBC00A030EC /* v_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v_sound.mp3; sourceTree = "<group>"; };
+		EE112A571A027EBC00A030EC /* w_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = w_sound.mp3; sourceTree = "<group>"; };
+		EE112A581A027EBC00A030EC /* x_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = x_sound.mp3; sourceTree = "<group>"; };
+		EE112A591A027EBC00A030EC /* y_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = y_sound.mp3; sourceTree = "<group>"; };
+		EE112A5A1A027EBC00A030EC /* yen_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yen_sound.mp3; sourceTree = "<group>"; };
+		EE112A5B1A027EBC00A030EC /* z_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = z_sound.mp3; sourceTree = "<group>"; };
+		EE112B2B1A0289DF00A030EC /* KidKeys.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KidKeys.entitlements; sourceTree = "<group>"; };
+		EE176B261A03E0D0009F03BC /* wordlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wordlist.plist; sourceTree = "<group>"; };
+		EE2061801AAA918B00EC1A11 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EE2061821AAA919000EC1A11 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE22DF0E1AAD403100371F42 /* speak_sentence_off_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speak_sentence_off_sound.mp3; sourceTree = "<group>"; };
+		EE22DF0F1AAD403100371F42 /* speak_sentence_on_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speak_sentence_on_sound.mp3; sourceTree = "<group>"; };
+		EE2456C51A0959FF009761D3 /* SFCartoonistHand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFCartoonistHand-Bold.ttf"; path = "KidKeys/SFCartoonistHand-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		EE2456C71A0961E4009761D3 /* KEY_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_back.png; sourceTree = "<group>"; };
+		EE2B87DB1AA6BD4C00389931 /* KEY_SENTENCE_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_SENTENCE_OFF.png; sourceTree = "<group>"; };
+		EE2B87DC1AA6BD4C00389931 /* KEY_SENTENCE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_SENTENCE.png; sourceTree = "<group>"; };
+		EE2C462C1A05C45A0034775A /* icon100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon100.png; sourceTree = "<group>"; };
+		EE2C462D1A05C45A0034775A /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		EE2C462E1A05C45A0034775A /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		EE2C462F1A05C45A0034775A /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+		EE2C46301A05C45A0034775A /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		EE2C46311A05C45A0034775A /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
+		EE2C46321A05C45A0034775A /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		EE2C46331A05C45A0034775A /* icon50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon50.png; sourceTree = "<group>"; };
+		EE2C46341A05C45A0034775A /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		EE2C46351A05C45A0034775A /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		EE2C46361A05C45A0034775A /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		EE2C46371A05C45A0034775A /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		EE2C46381A05C45A0034775A /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		EE2C46561A05C5370034775A /* how-to_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-to_ipad.png"; sourceTree = "<group>"; };
+		EE2C46571A05C5370034775A /* how-to_ipad_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-to_ipad_retina.png"; sourceTree = "<group>"; };
+		EE2C46581A05C5370034775A /* how-to_iphone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-to_iphone4.png"; sourceTree = "<group>"; };
+		EE2C46591A05C5370034775A /* how-to_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-to_iphone5.png"; sourceTree = "<group>"; };
+		EE2C465A1A05C5370034775A /* how-to_iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-to_iphone6.png"; sourceTree = "<group>"; };
+		EE2C465B1A05C5370034775A /* how-to_iphone6plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "how-to_iphone6plus.png"; sourceTree = "<group>"; };
+		EE2C46631A05CFE80034775A /* splash_1242_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_1242_2208.png; sourceTree = "<group>"; };
+		EE2C46641A05CFE80034775A /* splash_1536_2008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_1536_2008.png; sourceTree = "<group>"; };
+		EE2C46651A05CFE80034775A /* splash_1536_2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_1536_2048.png; sourceTree = "<group>"; };
+		EE2C46661A05CFE80034775A /* splash_320_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_320_480.png; sourceTree = "<group>"; };
+		EE2C46671A05CFE80034775A /* splash_640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_640_1136.png; sourceTree = "<group>"; };
+		EE2C46681A05CFE80034775A /* splash_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_640_960.png; sourceTree = "<group>"; };
+		EE2C46691A05CFE80034775A /* splash_750_1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_750_1334.png; sourceTree = "<group>"; };
+		EE2C466A1A05CFE80034775A /* splash_768_1004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_768_1004.png; sourceTree = "<group>"; };
+		EE2C466B1A05CFE80034775A /* splash_768_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_768_1024.png; sourceTree = "<group>"; };
+		EE4FAC671A0B8FA40082DBAD /* KEY_CHANGE_KEYBOARD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_CHANGE_KEYBOARD.png; sourceTree = "<group>"; };
+		EE4FAC681A0B8FA40082DBAD /* KEY_DELETE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_DELETE.png; sourceTree = "<group>"; };
+		EE4FAC691A0B8FA40082DBAD /* KEY_DROP_KEYBOARD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_DROP_KEYBOARD.png; sourceTree = "<group>"; };
+		EE4FAC6A1A0B8FA40082DBAD /* KEY_RETURN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_RETURN.png; sourceTree = "<group>"; };
+		EE4FAC6B1A0B8FA40082DBAD /* KEY_SPEAK_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_SPEAK_OFF.png; sourceTree = "<group>"; };
+		EE4FAC6C1A0B8FA40082DBAD /* KEY_SPEAK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_SPEAK.png; sourceTree = "<group>"; };
+		EE4FAC731A0B90480082DBAD /* KEY_EXCLAMATION_COMMA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_EXCLAMATION_COMMA.png; sourceTree = "<group>"; };
+		EE4FAC741A0B90480082DBAD /* KEY_QUESTION_PERIOD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_QUESTION_PERIOD.png; sourceTree = "<group>"; };
+		EEC6D3C51A04800D00DFF808 /* comma_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = comma_sound.mp3; sourceTree = "<group>"; };
+		EEE1F6071A0B390D00FBC3EE /* KEY_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_orange.png; sourceTree = "<group>"; };
+		EEFEB0A21A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPAD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_DOUBLE_CAPS_IPAD.png; sourceTree = "<group>"; };
+		EEFEB0A31A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPHONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KEY_DOUBLE_CAPS_IPHONE.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE11294B1A027D6B00A030EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2061831AAA919000EC1A11 /* AVFoundation.framework in Frameworks */,
+				EE2061811AAA918B00EC1A11 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1129641A027D7700A030EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1129781A027E0C00A030EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1129451A027D6600A030EC = {
+			isa = PBXGroup;
+			children = (
+				EE2061821AAA919000EC1A11 /* AVFoundation.framework */,
+				EE2061801AAA918B00EC1A11 /* AudioToolbox.framework */,
+				EE1129501A027D7100A030EC /* KidKeys */,
+				EE11296A1A027D7700A030EC /* KidKeysTests */,
+				EE11297C1A027E0C00A030EC /* KidKey */,
+				EE11294F1A027D7000A030EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE11294F1A027D7000A030EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE11294E1A027D7000A030EC /* KidKeys.app */,
+				EE1129671A027D7700A030EC /* KidKeysTests.xctest */,
+				EE11297B1A027E0C00A030EC /* KidKeys.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1129501A027D7100A030EC /* KidKeys */ = {
+			isa = PBXGroup;
+			children = (
+				EE112B2B1A0289DF00A030EC /* KidKeys.entitlements */,
+				EE1129551A027D7200A030EC /* AppDelegate.h */,
+				EE1129561A027D7200A030EC /* AppDelegate.m */,
+				EE1129581A027D7200A030EC /* ViewController.h */,
+				EE1129591A027D7200A030EC /* ViewController.m */,
+				EE11295B1A027D7700A030EC /* Main.storyboard */,
+				EE11295E1A027D7700A030EC /* Images.xcassets */,
+				EE1129601A027D7700A030EC /* LaunchScreen.xib */,
+				EE2C462B1A05C45A0034775A /* kidicon */,
+				EE1129511A027D7100A030EC /* Supporting Files */,
+			);
+			path = KidKeys;
+			sourceTree = "<group>";
+		};
+		EE1129511A027D7100A030EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C46621A05CFE80034775A /* splash */,
+				EE2C46551A05C5370034775A /* How to screens */,
+				EE1129521A027D7200A030EC /* Info.plist */,
+				EE1129531A027D7200A030EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE11296A1A027D7700A030EC /* KidKeysTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE11296D1A027D7700A030EC /* KidKeysTests.m */,
+				EE11296B1A027D7700A030EC /* Supporting Files */,
+			);
+			path = KidKeysTests;
+			sourceTree = "<group>";
+		};
+		EE11296B1A027D7700A030EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE11296C1A027D7700A030EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE11297C1A027E0C00A030EC /* KidKey */ = {
+			isa = PBXGroup;
+			children = (
+				EE11297F1A027E0C00A030EC /* KeyboardViewController.h */,
+				EE1129801A027E0C00A030EC /* KeyboardViewController.m */,
+				EE11297D1A027E0C00A030EC /* Supporting Files */,
+			);
+			path = KidKey;
+			sourceTree = "<group>";
+		};
+		EE11297D1A027E0C00A030EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE2456C51A0959FF009761D3 /* SFCartoonistHand-Bold.ttf */,
+				EE176B261A03E0D0009F03BC /* wordlist.plist */,
+				EE1129891A027EBC00A030EC /* keys */,
+				EE112A071A027EBC00A030EC /* sounds */,
+				EE11297E1A027E0C00A030EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE1129891A027EBC00A030EC /* keys */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FAC731A0B90480082DBAD /* KEY_EXCLAMATION_COMMA.png */,
+				EE4FAC741A0B90480082DBAD /* KEY_QUESTION_PERIOD.png */,
+				EE2456C71A0961E4009761D3 /* KEY_back.png */,
+				EEFEB0A21A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPAD.png */,
+				EEFEB0A31A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPHONE.png */,
+				EEE1F6071A0B390D00FBC3EE /* KEY_orange.png */,
+				EE4FAC671A0B8FA40082DBAD /* KEY_CHANGE_KEYBOARD.png */,
+				EE4FAC681A0B8FA40082DBAD /* KEY_DELETE.png */,
+				EE4FAC691A0B8FA40082DBAD /* KEY_DROP_KEYBOARD.png */,
+				EE4FAC6A1A0B8FA40082DBAD /* KEY_RETURN.png */,
+				EE4FAC6B1A0B8FA40082DBAD /* KEY_SPEAK_OFF.png */,
+				EE4FAC6C1A0B8FA40082DBAD /* KEY_SPEAK.png */,
+				EE2B87DB1AA6BD4C00389931 /* KEY_SENTENCE_OFF.png */,
+				EE2B87DC1AA6BD4C00389931 /* KEY_SENTENCE.png */,
+			);
+			path = keys;
+			sourceTree = "<group>";
+		};
+		EE112A071A027EBC00A030EC /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EE112A081A027EBC00A030EC /* 0_sound.mp3 */,
+				EE112A091A027EBC00A030EC /* 1_sound.mp3 */,
+				EE112A0A1A027EBC00A030EC /* 2_sound.mp3 */,
+				EE112A0B1A027EBC00A030EC /* 3_sound.mp3 */,
+				EE112A0C1A027EBC00A030EC /* 4_sound.mp3 */,
+				EE112A0D1A027EBC00A030EC /* 5_sound.mp3 */,
+				EE112A0E1A027EBC00A030EC /* 6_sound.mp3 */,
+				EE112A0F1A027EBC00A030EC /* 7_sound.mp3 */,
+				EE112A101A027EBC00A030EC /* 8_sound.mp3 */,
+				EE112A111A027EBC00A030EC /* 9_sound.mp3 */,
+				EE112A121A027EBC00A030EC /* a_sound.mp3 */,
+				EE112A131A027EBC00A030EC /* ampersand_sound.mp3 */,
+				EE112A141A027EBC00A030EC /* apostrophe_sound.mp3 */,
+				EE112A151A027EBC00A030EC /* asterisk_sound.mp3 */,
+				EE112A161A027EBC00A030EC /* at_sound.mp3 */,
+				EE112A171A027EBC00A030EC /* b_sound.mp3 */,
+				EE112A181A027EBC00A030EC /* backslash_sound.mp3 */,
+				EE112A191A027EBC00A030EC /* bar_sound.mp3 */,
+				EE112A1A1A027EBC00A030EC /* c_sound.mp3 */,
+				EE112A1B1A027EBC00A030EC /* caret_sound.mp3 */,
+				EE112A1C1A027EBC00A030EC /* change_keyboard_sound.mp3 */,
+				EE112A1D1A027EBC00A030EC /* colon_sound.mp3 */,
+				EE112A1E1A027EBC00A030EC /* d_sound.mp3 */,
+				EE112A1F1A027EBC00A030EC /* delete_sound.mp3 */,
+				EE112A201A027EBC00A030EC /* dollar_sound.mp3 */,
+				EE112A211A027EBC00A030EC /* drop_keyboard_sound.mp3 */,
+				EE112A221A027EBC00A030EC /* e_sound.mp3 */,
+				EE112A231A027EBC00A030EC /* equal_sound.mp3 */,
+				EE112A241A027EBC00A030EC /* euro_sound.mp3 */,
+				EE112A251A027EBC00A030EC /* exclamation_sound.mp3 */,
+				EE112A261A027EBC00A030EC /* f_sound.mp3 */,
+				EE112A271A027EBC00A030EC /* g_sound.mp3 */,
+				EE112A281A027EBC00A030EC /* greater_than_sound.mp3 */,
+				EE112A291A027EBC00A030EC /* h_sound.mp3 */,
+				EE112A2A1A027EBC00A030EC /* hash_sound.mp3 */,
+				EE112A2B1A027EBC00A030EC /* hyphen_sound.mp3 */,
+				EE112A2C1A027EBC00A030EC /* i_sound.mp3 */,
+				EE112A2D1A027EBC00A030EC /* j_sound.mp3 */,
+				EE112A2E1A027EBC00A030EC /* k_sound.mp3 */,
+				EE112A2F1A027EBC00A030EC /* l_sound.mp3 */,
+				EE112A301A027EBC00A030EC /* left_curved_bracket_sound.mp3 */,
+				EE112A311A027EBC00A030EC /* left_parenthesis_sound.mp3 */,
+				EE112A321A027EBC00A030EC /* left_square_bracket_sound.mp3 */,
+				EE112A331A027EBC00A030EC /* less_than_sound.mp3 */,
+				EE112A341A027EBC00A030EC /* letters_sound.mp3 */,
+				EE112A351A027EBC00A030EC /* lower_case_sound.mp3 */,
+				EE112A361A027EBC00A030EC /* m_sound.mp3 */,
+				EE112A371A027EBC00A030EC /* more_symbols_sound.mp3 */,
+				EE112A381A027EBC00A030EC /* n_sound.mp3 */,
+				EE112A391A027EBC00A030EC /* numbers_sound.mp3 */,
+				EE112A3A1A027EBC00A030EC /* o_sound.mp3 */,
+				EE112A3B1A027EBC00A030EC /* p_sound.mp3 */,
+				EE112A3C1A027EBC00A030EC /* percent_sound.mp3 */,
+				EE112A3D1A027EBC00A030EC /* period_sound.mp3 */,
+				EE112A3E1A027EBC00A030EC /* plus_sound.mp3 */,
+				EE112A3F1A027EBC00A030EC /* pound_sound.mp3 */,
+				EE112A401A027EBC00A030EC /* q_sound.mp3 */,
+				EE112A411A027EBC00A030EC /* question_sound.mp3 */,
+				EE112A421A027EBC00A030EC /* quotation_sound.mp3 */,
+				EE112A431A027EBC00A030EC /* r_sound.mp3 */,
+				EEC6D3C51A04800D00DFF808 /* comma_sound.mp3 */,
+				EE112A441A027EBC00A030EC /* redo_sound.mp3 */,
+				EE112A451A027EBC00A030EC /* return_sound.mp3 */,
+				EE112A461A027EBC00A030EC /* right_curved_bracket_sound.mp3 */,
+				EE112A471A027EBC00A030EC /* right_parenthesis_sound.mp3 */,
+				EE112A481A027EBC00A030EC /* right_square_bracket_sound.mp3 */,
+				EE112A491A027EBC00A030EC /* s_sound.mp3 */,
+				EE112A4A1A027EBC00A030EC /* semicolon_sound.mp3 */,
+				EE112A4B1A027EBC00A030EC /* slash_sound.mp3 */,
+				EE112A4C1A027EBC00A030EC /* space_sound.mp3 */,
+				EE112A4D1A027EBC00A030EC /* speak_off_sound.mp3 */,
+				EE112A4E1A027EBC00A030EC /* speak_on_sound.mp3 */,
+				EE22DF0E1AAD403100371F42 /* speak_sentence_off_sound.mp3 */,
+				EE22DF0F1AAD403100371F42 /* speak_sentence_on_sound.mp3 */,
+				EE112A4F1A027EBC00A030EC /* symbols_sound.mp3 */,
+				EE112A501A027EBC00A030EC /* t_sound.mp3 */,
+				EE112A511A027EBC00A030EC /* tilde_sound.mp3 */,
+				EE112A521A027EBC00A030EC /* u_sound.mp3 */,
+				EE112A531A027EBC00A030EC /* underscore__sound.mp3 */,
+				EE112A541A027EBC00A030EC /* undo.mp3 */,
+				EE112A551A027EBC00A030EC /* upper_case_sound.mp3 */,
+				EE112A561A027EBC00A030EC /* v_sound.mp3 */,
+				EE112A571A027EBC00A030EC /* w_sound.mp3 */,
+				EE112A581A027EBC00A030EC /* x_sound.mp3 */,
+				EE112A591A027EBC00A030EC /* y_sound.mp3 */,
+				EE112A5A1A027EBC00A030EC /* yen_sound.mp3 */,
+				EE112A5B1A027EBC00A030EC /* z_sound.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		EE2C462B1A05C45A0034775A /* kidicon */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C462C1A05C45A0034775A /* icon100.png */,
+				EE2C462D1A05C45A0034775A /* icon114.png */,
+				EE2C462E1A05C45A0034775A /* icon120.png */,
+				EE2C462F1A05C45A0034775A /* icon144.png */,
+				EE2C46301A05C45A0034775A /* icon152.png */,
+				EE2C46311A05C45A0034775A /* icon29.png */,
+				EE2C46321A05C45A0034775A /* icon40.png */,
+				EE2C46331A05C45A0034775A /* icon50.png */,
+				EE2C46341A05C45A0034775A /* icon57.png */,
+				EE2C46351A05C45A0034775A /* icon58.png */,
+				EE2C46361A05C45A0034775A /* icon72.png */,
+				EE2C46371A05C45A0034775A /* icon76.png */,
+				EE2C46381A05C45A0034775A /* icon80.png */,
+			);
+			name = kidicon;
+			path = ../KidKey/kidicon;
+			sourceTree = "<group>";
+		};
+		EE2C46551A05C5370034775A /* How to screens */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C46561A05C5370034775A /* how-to_ipad.png */,
+				EE2C46571A05C5370034775A /* how-to_ipad_retina.png */,
+				EE2C46581A05C5370034775A /* how-to_iphone4.png */,
+				EE2C46591A05C5370034775A /* how-to_iphone5.png */,
+				EE2C465A1A05C5370034775A /* how-to_iphone6.png */,
+				EE2C465B1A05C5370034775A /* how-to_iphone6plus.png */,
+			);
+			path = "How to screens";
+			sourceTree = "<group>";
+		};
+		EE2C46621A05CFE80034775A /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C46631A05CFE80034775A /* splash_1242_2208.png */,
+				EE2C46641A05CFE80034775A /* splash_1536_2008.png */,
+				EE2C46651A05CFE80034775A /* splash_1536_2048.png */,
+				EE2C46661A05CFE80034775A /* splash_320_480.png */,
+				EE2C46671A05CFE80034775A /* splash_640_1136.png */,
+				EE2C46681A05CFE80034775A /* splash_640_960.png */,
+				EE2C46691A05CFE80034775A /* splash_750_1334.png */,
+				EE2C466A1A05CFE80034775A /* splash_768_1004.png */,
+				EE2C466B1A05CFE80034775A /* splash_768_1024.png */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE11294D1A027D6B00A030EC /* KidKeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1129711A027D7700A030EC /* Build configuration list for PBXNativeTarget "KidKeys" */;
+			buildPhases = (
+				EE11294A1A027D6B00A030EC /* Sources */,
+				EE11294B1A027D6B00A030EC /* Frameworks */,
+				EE11294C1A027D6B00A030EC /* Resources */,
+				EE1129881A027E0C00A030EC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1129831A027E0C00A030EC /* PBXTargetDependency */,
+			);
+			name = KidKeys;
+			productName = KidKeys;
+			productReference = EE11294E1A027D7000A030EC /* KidKeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE1129661A027D7700A030EC /* KidKeysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1129741A027D7800A030EC /* Build configuration list for PBXNativeTarget "KidKeysTests" */;
+			buildPhases = (
+				EE1129631A027D7700A030EC /* Sources */,
+				EE1129641A027D7700A030EC /* Frameworks */,
+				EE1129651A027D7700A030EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1129691A027D7700A030EC /* PBXTargetDependency */,
+			);
+			name = KidKeysTests;
+			productName = KidKeysTests;
+			productReference = EE1129671A027D7700A030EC /* KidKeysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE11297A1A027E0C00A030EC /* KidKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1129851A027E0C00A030EC /* Build configuration list for PBXNativeTarget "KidKey" */;
+			buildPhases = (
+				EE1129771A027E0C00A030EC /* Sources */,
+				EE1129781A027E0C00A030EC /* Frameworks */,
+				EE1129791A027E0C00A030EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidKey;
+			productName = KidKey;
+			productReference = EE11297B1A027E0C00A030EC /* KidKeys.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1129461A027D6800A030EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.spark.keyboarddesigner;
+				TargetAttributes = {
+					EE11294D1A027D6B00A030EC = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 78QNAA9JX5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EE1129661A027D7700A030EC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EE11294D1A027D6B00A030EC;
+					};
+					EE11297A1A027E0C00A030EC = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 78QNAA9JX5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EE1129491A027D6800A030EC /* Build configuration list for PBXProject "KidKeys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1129451A027D6600A030EC;
+			productRefGroup = EE11294F1A027D7000A030EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE11294D1A027D6B00A030EC /* KidKeys */,
+				EE1129661A027D7700A030EC /* KidKeysTests */,
+				EE11297A1A027E0C00A030EC /* KidKey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE11294C1A027D6B00A030EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE11295D1A027D7700A030EC /* Main.storyboard in Resources */,
+				EE2C466E1A05CFE80034775A /* splash_1536_2048.png in Resources */,
+				EE1129621A027D7700A030EC /* LaunchScreen.xib in Resources */,
+				EE2C46701A05CFE80034775A /* splash_640_1136.png in Resources */,
+				EE2C466F1A05CFE80034775A /* splash_320_480.png in Resources */,
+				EE2C466D1A05CFE80034775A /* splash_1536_2008.png in Resources */,
+				EE11295F1A027D7700A030EC /* Images.xcassets in Resources */,
+				EE2C466C1A05CFE80034775A /* splash_1242_2208.png in Resources */,
+				EE2C465F1A05C5370034775A /* how-to_iphone5.png in Resources */,
+				EE2C46611A05C5370034775A /* how-to_iphone6plus.png in Resources */,
+				EE2C46731A05CFE80034775A /* splash_768_1004.png in Resources */,
+				EE2C465D1A05C5370034775A /* how-to_ipad_retina.png in Resources */,
+				EE2C46711A05CFE80034775A /* splash_640_960.png in Resources */,
+				EE2C465E1A05C5370034775A /* how-to_iphone4.png in Resources */,
+				EE2C46741A05CFE80034775A /* splash_768_1024.png in Resources */,
+				EE2C465C1A05C5370034775A /* how-to_ipad.png in Resources */,
+				EE2C46721A05CFE80034775A /* splash_750_1334.png in Resources */,
+				EE2C46601A05C5370034775A /* how-to_iphone6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1129651A027D7700A030EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1129791A027E0C00A030EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE112B201A027EBC00A030EC /* underscore__sound.mp3 in Resources */,
+				EE112ADB1A027EBC00A030EC /* 6_sound.mp3 in Resources */,
+				EE2C46421A05C45A0034775A /* icon57.png in Resources */,
+				EE112B1E1A027EBC00A030EC /* tilde_sound.mp3 in Resources */,
+				EE176B271A03E0D0009F03BC /* wordlist.plist in Resources */,
+				EE112B0D1A027EBC00A030EC /* q_sound.mp3 in Resources */,
+				EE112ADD1A027EBC00A030EC /* 8_sound.mp3 in Resources */,
+				EEFEB0A51A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPHONE.png in Resources */,
+				EE2C463F1A05C45A0034775A /* icon29.png in Resources */,
+				EE112AD51A027EBC00A030EC /* 0_sound.mp3 in Resources */,
+				EE112B151A027EBC00A030EC /* right_square_bracket_sound.mp3 in Resources */,
+				EE112AF21A027EBC00A030EC /* exclamation_sound.mp3 in Resources */,
+				EE112AE61A027EBC00A030EC /* bar_sound.mp3 in Resources */,
+				EE112AEB1A027EBC00A030EC /* d_sound.mp3 in Resources */,
+				EE112B1F1A027EBC00A030EC /* u_sound.mp3 in Resources */,
+				EE112AE51A027EBC00A030EC /* backslash_sound.mp3 in Resources */,
+				EE112B221A027EBC00A030EC /* upper_case_sound.mp3 in Resources */,
+				EE112B131A027EBC00A030EC /* right_curved_bracket_sound.mp3 in Resources */,
+				EE112AFD1A027EBC00A030EC /* left_curved_bracket_sound.mp3 in Resources */,
+				EE2C463A1A05C45A0034775A /* icon100.png in Resources */,
+				EE112B211A027EBC00A030EC /* undo.mp3 in Resources */,
+				EE112AF81A027EBC00A030EC /* hyphen_sound.mp3 in Resources */,
+				EE4FAC751A0B90480082DBAD /* KEY_EXCLAMATION_COMMA.png in Resources */,
+				EE112B121A027EBC00A030EC /* return_sound.mp3 in Resources */,
+				EE112AE21A027EBC00A030EC /* asterisk_sound.mp3 in Resources */,
+				EE112B281A027EBC00A030EC /* z_sound.mp3 in Resources */,
+				EE112B061A027EBC00A030EC /* numbers_sound.mp3 in Resources */,
+				EE112B071A027EBC00A030EC /* o_sound.mp3 in Resources */,
+				EE112B191A027EBC00A030EC /* space_sound.mp3 in Resources */,
+				EE112ADC1A027EBC00A030EC /* 7_sound.mp3 in Resources */,
+				EE112B1A1A027EBC00A030EC /* speak_off_sound.mp3 in Resources */,
+				EE112B0E1A027EBC00A030EC /* question_sound.mp3 in Resources */,
+				EE112B081A027EBC00A030EC /* p_sound.mp3 in Resources */,
+				EE112AE41A027EBC00A030EC /* b_sound.mp3 in Resources */,
+				EEFEB0A41A0BC1E200B66DDF /* KEY_DOUBLE_CAPS_IPAD.png in Resources */,
+				EE112AE91A027EBC00A030EC /* change_keyboard_sound.mp3 in Resources */,
+				EE112AF41A027EBC00A030EC /* g_sound.mp3 in Resources */,
+				EE112AFB1A027EBC00A030EC /* k_sound.mp3 in Resources */,
+				EE4FAC6E1A0B8FA40082DBAD /* KEY_DELETE.png in Resources */,
+				EE112B1D1A027EBC00A030EC /* t_sound.mp3 in Resources */,
+				EE4FAC761A0B90480082DBAD /* KEY_QUESTION_PERIOD.png in Resources */,
+				EE2C463B1A05C45A0034775A /* icon114.png in Resources */,
+				EE112AFE1A027EBC00A030EC /* left_parenthesis_sound.mp3 in Resources */,
+				EE112AE01A027EBC00A030EC /* ampersand_sound.mp3 in Resources */,
+				EE112B001A027EBC00A030EC /* less_than_sound.mp3 in Resources */,
+				EE112ADE1A027EBC00A030EC /* 9_sound.mp3 in Resources */,
+				EE112B161A027EBC00A030EC /* s_sound.mp3 in Resources */,
+				EE112B261A027EBC00A030EC /* y_sound.mp3 in Resources */,
+				EE112AF11A027EBC00A030EC /* euro_sound.mp3 in Resources */,
+				EE112B111A027EBC00A030EC /* redo_sound.mp3 in Resources */,
+				EE112B0A1A027EBC00A030EC /* period_sound.mp3 in Resources */,
+				EE112ADA1A027EBC00A030EC /* 5_sound.mp3 in Resources */,
+				EE112AFC1A027EBC00A030EC /* l_sound.mp3 in Resources */,
+				EE112ADF1A027EBC00A030EC /* a_sound.mp3 in Resources */,
+				EE112B1B1A027EBC00A030EC /* speak_on_sound.mp3 in Resources */,
+				EE112B101A027EBC00A030EC /* r_sound.mp3 in Resources */,
+				EE2B87DE1AA6BD4C00389931 /* KEY_SENTENCE.png in Resources */,
+				EE112B271A027EBC00A030EC /* yen_sound.mp3 in Resources */,
+				EE2456C61A095A10009761D3 /* SFCartoonistHand-Bold.ttf in Resources */,
+				EE112B0F1A027EBC00A030EC /* quotation_sound.mp3 in Resources */,
+				EE112B251A027EBC00A030EC /* x_sound.mp3 in Resources */,
+				EEE1F6081A0B390D00FBC3EE /* KEY_orange.png in Resources */,
+				EE2456C81A0961E4009761D3 /* KEY_back.png in Resources */,
+				EE112AF61A027EBC00A030EC /* h_sound.mp3 in Resources */,
+				EE112AFF1A027EBC00A030EC /* left_square_bracket_sound.mp3 in Resources */,
+				EE112AEA1A027EBC00A030EC /* colon_sound.mp3 in Resources */,
+				EE112AD71A027EBC00A030EC /* 2_sound.mp3 in Resources */,
+				EE2C46431A05C45A0034775A /* icon58.png in Resources */,
+				EE2C46441A05C45A0034775A /* icon72.png in Resources */,
+				EE112AD61A027EBC00A030EC /* 1_sound.mp3 in Resources */,
+				EEC6D3C61A04800D00DFF808 /* comma_sound.mp3 in Resources */,
+				EE112AE71A027EBC00A030EC /* c_sound.mp3 in Resources */,
+				EE2C463E1A05C45A0034775A /* icon152.png in Resources */,
+				EE112AE11A027EBC00A030EC /* apostrophe_sound.mp3 in Resources */,
+				EE2C46461A05C45A0034775A /* icon80.png in Resources */,
+				EE112B181A027EBC00A030EC /* slash_sound.mp3 in Resources */,
+				EE112B171A027EBC00A030EC /* semicolon_sound.mp3 in Resources */,
+				EE112AEC1A027EBC00A030EC /* delete_sound.mp3 in Resources */,
+				EE112B041A027EBC00A030EC /* more_symbols_sound.mp3 in Resources */,
+				EE112B241A027EBC00A030EC /* w_sound.mp3 in Resources */,
+				EE112B1C1A027EBC00A030EC /* symbols_sound.mp3 in Resources */,
+				EE112B0B1A027EBC00A030EC /* plus_sound.mp3 in Resources */,
+				EE112AF51A027EBC00A030EC /* greater_than_sound.mp3 in Resources */,
+				EE22DF101AAD403100371F42 /* speak_sentence_off_sound.mp3 in Resources */,
+				EE4FAC6D1A0B8FA40082DBAD /* KEY_CHANGE_KEYBOARD.png in Resources */,
+				EE112AF71A027EBC00A030EC /* hash_sound.mp3 in Resources */,
+				EE2C46411A05C45A0034775A /* icon50.png in Resources */,
+				EE112B091A027EBC00A030EC /* percent_sound.mp3 in Resources */,
+				EE112AF31A027EBC00A030EC /* f_sound.mp3 in Resources */,
+				EE22DF111AAD403100371F42 /* speak_sentence_on_sound.mp3 in Resources */,
+				EE112B231A027EBC00A030EC /* v_sound.mp3 in Resources */,
+				EE112AEF1A027EBC00A030EC /* e_sound.mp3 in Resources */,
+				EE112B021A027EBC00A030EC /* lower_case_sound.mp3 in Resources */,
+				EE112B0C1A027EBC00A030EC /* pound_sound.mp3 in Resources */,
+				EE112AD81A027EBC00A030EC /* 3_sound.mp3 in Resources */,
+				EE4FAC711A0B8FA40082DBAD /* KEY_SPEAK_OFF.png in Resources */,
+				EE4FAC701A0B8FA40082DBAD /* KEY_RETURN.png in Resources */,
+				EE112B051A027EBC00A030EC /* n_sound.mp3 in Resources */,
+				EE2C46451A05C45A0034775A /* icon76.png in Resources */,
+				EE112B011A027EBC00A030EC /* letters_sound.mp3 in Resources */,
+				EE112AE81A027EBC00A030EC /* caret_sound.mp3 in Resources */,
+				EE2C46401A05C45A0034775A /* icon40.png in Resources */,
+				EE112AEE1A027EBC00A030EC /* drop_keyboard_sound.mp3 in Resources */,
+				EE4FAC6F1A0B8FA40082DBAD /* KEY_DROP_KEYBOARD.png in Resources */,
+				EE112AE31A027EBC00A030EC /* at_sound.mp3 in Resources */,
+				EE112AFA1A027EBC00A030EC /* j_sound.mp3 in Resources */,
+				EE112AED1A027EBC00A030EC /* dollar_sound.mp3 in Resources */,
+				EE112B031A027EBC00A030EC /* m_sound.mp3 in Resources */,
+				EE2B87DD1AA6BD4C00389931 /* KEY_SENTENCE_OFF.png in Resources */,
+				EE112B141A027EBC00A030EC /* right_parenthesis_sound.mp3 in Resources */,
+				EE112AD91A027EBC00A030EC /* 4_sound.mp3 in Resources */,
+				EE112AF91A027EBC00A030EC /* i_sound.mp3 in Resources */,
+				EE2C463C1A05C45A0034775A /* icon120.png in Resources */,
+				EE2C463D1A05C45A0034775A /* icon144.png in Resources */,
+				EE4FAC721A0B8FA40082DBAD /* KEY_SPEAK.png in Resources */,
+				EE112AF01A027EBC00A030EC /* equal_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE11294A1A027D6B00A030EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE11295A1A027D7200A030EC /* ViewController.m in Sources */,
+				EE1129571A027D7200A030EC /* AppDelegate.m in Sources */,
+				EE1129541A027D7200A030EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1129631A027D7700A030EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE11296E1A027D7700A030EC /* KidKeysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1129771A027E0C00A030EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1129811A027E0C00A030EC /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE1129691A027D7700A030EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE11294D1A027D6B00A030EC /* KidKeys */;
+			targetProxy = EE1129681A027D7700A030EC /* PBXContainerItemProxy */;
+		};
+		EE1129831A027E0C00A030EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE11297A1A027E0C00A030EC /* KidKey */;
+			targetProxy = EE1129821A027E0C00A030EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE11295B1A027D7700A030EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE11295C1A027D7700A030EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1129601A027D7700A030EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1129611A027D7700A030EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE11296F1A027D7700A030EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE1129701A027D7700A030EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1129721A027D7700A030EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = KidKeys/KidKeys.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: James D Garrahy (78QNAA9JX5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: James D Garrahy (78QNAA9JX5)";
+				INFOPLIST_FILE = KidKeys/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a9544aed-a788-4702-acae-382f6690abc2";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE1129731A027D7700A030EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = KidKeys/KidKeys.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: James D Garrahy (78QNAA9JX5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: James D Garrahy (78QNAA9JX5)";
+				INFOPLIST_FILE = KidKeys/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a9544aed-a788-4702-acae-382f6690abc2";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE1129751A027D7800A030EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KidKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidKeys.app/KidKeys";
+			};
+			name = Debug;
+		};
+		EE1129761A027D7800A030EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KidKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidKeys.app/KidKeys";
+			};
+			name = Release;
+		};
+		EE1129861A027E0C00A030EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KidKeys/KidKeys.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: James D Garrahy (78QNAA9JX5)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KidKey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = KidKeys;
+				PROVISIONING_PROFILE = "f39e9811-75df-4d4e-9bf2-61b3268df20a";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE1129871A027E0C00A030EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KidKeys/KidKeys.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: James D Garrahy (78QNAA9JX5)";
+				INFOPLIST_FILE = KidKey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = KidKeys;
+				PROVISIONING_PROFILE = "f39e9811-75df-4d4e-9bf2-61b3268df20a";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1129491A027D6800A030EC /* Build configuration list for PBXProject "KidKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE11296F1A027D7700A030EC /* Debug */,
+				EE1129701A027D7700A030EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1129711A027D7700A030EC /* Build configuration list for PBXNativeTarget "KidKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1129721A027D7700A030EC /* Debug */,
+				EE1129731A027D7700A030EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1129741A027D7800A030EC /* Build configuration list for PBXNativeTarget "KidKeysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1129751A027D7800A030EC /* Debug */,
+				EE1129761A027D7800A030EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1129851A027E0C00A030EC /* Build configuration list for PBXNativeTarget "KidKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1129861A027E0C00A030EC /* Debug */,
+				EE1129871A027E0C00A030EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1129461A027D6800A030EC /* Project object */;
+}
